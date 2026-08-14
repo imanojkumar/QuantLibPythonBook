@@ -15,7 +15,7 @@ book:
   chapters:
     - index.qmd
 
-    - part: "Part I — QuantLib Foundations"
+    - part: "Part I - QuantLib Foundations"
       chapters:
         - chapters/part-01-foundations/01-environment.qmd
         - chapters/part-01-foundations/02-dates-calendars.qmd
@@ -23,14 +23,14 @@ book:
         - chapters/part-01-foundations/04-instruments-engines.qmd
         - chapters/part-01-foundations/05-greeks-scenarios.qmd
 
-    - part: "Part II — Historical Market Data and Analytics"
+    - part: "Part II - Historical Market Data and Analytics"
       chapters:
         - chapters/part-02-market-data/06-yfinance-data.qmd
         - chapters/part-02-market-data/07-cleaning-data.qmd
         - chapters/part-02-market-data/08-returns-volatility.qmd
         - chapters/part-02-market-data/09-market-data-pipeline.qmd
 
-    - part: "Part III — Interest-Rate Curves and Models"
+    - part: "Part III - Interest-Rate Curves and Models"
       chapters:
         - chapters/part-03-interest-rates/10-interest-rates-discount-factors.qmd
         - chapters/part-03-interest-rates/11-overnight-discount-curve.qmd
@@ -40,7 +40,7 @@ book:
         - chapters/part-03-interest-rates/15-caps-floors.qmd
         - chapters/part-03-interest-rates/16-short-rate-models.qmd
 
-    - part: "Part IV — Equity and Commodity Derivatives"
+    - part: "Part IV - Equity and Commodity Derivatives"
       chapters:
         - chapters/part-04-derivatives/17-black-scholes.qmd
         - chapters/part-04-derivatives/18-american-options.qmd
@@ -49,7 +49,7 @@ book:
         - chapters/part-04-derivatives/21-heston-calibration.qmd
         - chapters/part-04-derivatives/22-commodity-derivatives.qmd
 
-    - part: "Part V — Bonds, Credit and Portfolio Risk"
+    - part: "Part V - Bonds, Credit and Portfolio Risk"
       chapters:
         - chapters/part-05-bonds-risk/23-fixed-irregular-bonds.qmd
         - chapters/part-05-bonds-risk/24-yield-duration-convexity.qmd
