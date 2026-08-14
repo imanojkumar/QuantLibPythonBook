@@ -1,1 +1,75 @@
-# Quarto config placeholder
+project:
+  type: book
+  output-dir: _site
+
+book:
+  title: "QuantLib Python Book"
+  subtitle: "Practical Financial Modelling with Python"
+  search: true
+  repo-url: https://github.com/imanojkumar/QuantLibPythonBook
+  repo-branch: main
+  sidebar:
+    style: docked
+    collapse-level: 1
+    search: true
+  chapters:
+    - index.qmd
+
+    - part: "Part I — QuantLib Foundations"
+      chapters:
+        - chapters/part-01-foundations/01-environment.qmd
+        - chapters/part-01-foundations/02-dates-calendars.qmd
+        - chapters/part-01-foundations/03-schedules-cashflows.qmd
+        - chapters/part-01-foundations/04-instruments-engines.qmd
+        - chapters/part-01-foundations/05-greeks-scenarios.qmd
+
+    - part: "Part II — Historical Market Data and Analytics"
+      chapters:
+        - chapters/part-02-market-data/06-yfinance-data.qmd
+        - chapters/part-02-market-data/07-cleaning-data.qmd
+        - chapters/part-02-market-data/08-returns-volatility.qmd
+        - chapters/part-02-market-data/09-market-data-pipeline.qmd
+
+    - part: "Part III — Interest-Rate Curves and Models"
+      chapters:
+        - chapters/part-03-interest-rates/10-interest-rates-discount-factors.qmd
+        - chapters/part-03-interest-rates/11-overnight-discount-curve.qmd
+        - chapters/part-03-interest-rates/12-multi-curve-framework.qmd
+        - chapters/part-03-interest-rates/13-curve-interpolation-diagnostics.qmd
+        - chapters/part-03-interest-rates/14-interest-rate-swaps.qmd
+        - chapters/part-03-interest-rates/15-caps-floors.qmd
+        - chapters/part-03-interest-rates/16-short-rate-models.qmd
+
+    - part: "Part IV — Equity and Commodity Derivatives"
+      chapters:
+        - chapters/part-04-derivatives/17-black-scholes.qmd
+        - chapters/part-04-derivatives/18-american-options.qmd
+        - chapters/part-04-derivatives/19-monte-carlo-options.qmd
+        - chapters/part-04-derivatives/20-heston-model.qmd
+        - chapters/part-04-derivatives/21-heston-calibration.qmd
+        - chapters/part-04-derivatives/22-commodity-derivatives.qmd
+
+    - part: "Part V — Bonds, Credit and Portfolio Risk"
+      chapters:
+        - chapters/part-05-bonds-risk/23-fixed-irregular-bonds.qmd
+        - chapters/part-05-bonds-risk/24-yield-duration-convexity.qmd
+        - chapters/part-05-bonds-risk/25-credit-spreads.qmd
+        - chapters/part-05-bonds-risk/26-callable-bonds.qmd
+        - chapters/part-05-bonds-risk/27-floating-rate-notes.qmd
+        - chapters/part-05-bonds-risk/28-treasury-futures.qmd
+        - chapters/part-05-bonds-risk/29-portfolio-risk.qmd
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    respect-user-color-scheme: true
+    toc: true
+    toc-depth: 3
+    code-copy: true
+    code-overflow: scroll
+    number-sections: true
+
+execute:
+  freeze: auto

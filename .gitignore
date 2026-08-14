@@ -10,3 +10,6 @@ _site/
 .jupyter_cache/
 .DS_Store
 Thumbs.db
+
+/.quarto/
+**/*.quarto_ipynb

@@ -1,3 +1,7 @@
 ---
 title: "QuantLib Python Book"
+subtitle: "Practical Financial Modelling with Python"
+numbered: false
 ---
+
+A practical, code-led guide to financial modelling, valuation and risk analysis with Python and QuantLib.
