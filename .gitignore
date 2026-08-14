@@ -1,0 +1,12 @@
+# Python artifacts
+__pycache__/
+*.pyc
+.env
+.venv/
+*.py[cod]
+.ipynb_checkpoints/
+.quarto/
+_site/
+.jupyter_cache/
+.DS_Store
+Thumbs.db
